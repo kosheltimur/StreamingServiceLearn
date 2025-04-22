@@ -1,0 +1,7 @@
+<div class="filters">
+    {% for genre in genres %}
+        
+        <input type="checkbox" id="{{ genre }}" name="filter-{{ genre }}" class = "filter" value="{% url 'filter' genre %}">
+        <label for="{{ genre }}">{{ genre }}</label>
+    {% endfor %} 
+</div>
