@@ -1,0 +1,1 @@
+## This project had been created for study how to use ajax get requests
